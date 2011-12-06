@@ -250,7 +250,7 @@
   :type 'integer
   :group 'sr-speedbar)
 
-(defcustom sr-speedbar-width-console 24
+(defcustom sr-speedbar-width-console 40
   "Initial width of `sr-speedbar-window' on console."
   :type 'integer
   :group 'sr-speedbar)

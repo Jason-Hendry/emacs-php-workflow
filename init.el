@@ -2,3 +2,4 @@
 (load "php-mode")
 (load "smarty-mode")
 (load "sr-speedbar")
+(sr-speedbar-open)
