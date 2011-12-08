@@ -2,4 +2,9 @@
 (load "php-mode")
 (load "smarty-mode")
 (load "sr-speedbar")
+(require 'open-resource)
 (sr-speedbar-open)
+
+(global-set-key "\C-\M-r" 'open-resource)
+(setq open-resource-repository-directory "~/www")
+(setq open-resource-ignore-patterns (quote ("~$" ".svn" "templates_cpl")))
